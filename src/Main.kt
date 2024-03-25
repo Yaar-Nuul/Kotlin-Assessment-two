@@ -13,6 +13,7 @@ fun main() {
 }
 fun giveString(statement: String){
 println(statement.toList())
+    println((statement.count { it == 'b' }))
 
 }
 fun arrayOfIntegers(nums: Array<Int>): Int {
